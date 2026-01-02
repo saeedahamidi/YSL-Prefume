@@ -1,0 +1,32 @@
+
+/* Full screen layout with centered content */
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Centered content section */
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Headings with golden color */
+.content h1 {
+  font-size: 4rem;
+  color: gold;
+  margin-bottom: 1rem;
+}
+
+.content h2 {
+  font-size: 2rem;
+  color: gold;
+}
